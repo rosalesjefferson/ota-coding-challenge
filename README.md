@@ -32,7 +32,7 @@ Make sure you have Node.js and Git installed.
 
 ## Installation
 
-1. git clone git@github.com:rosalesjefferson/ota-coding-challenge.git or use https/GitHub Cli
+1. git clone git@github.com:rosalesjefferson/ota-coding-challenge.git (Alternatively, you can use HTTPS or GitHub CLI.)
 2. cd ota-coding-challenge
 3. npm install
 4. npm run dev
