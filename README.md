@@ -1,50 +1,39 @@
-# React + TypeScript + Vite
+# OTA Coding Challenge
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple web application built with React, Vite, and Tailwind CSS as part of an assessment for OTA Inc.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Features
+- Tech Stack
+- Setup Instructions
+- Available Scripts
+- Project Structure
+- License
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- React + Vite: Fast and efficient development environment
+- Tailwind CSS: Responsive and customizable styling
+- Component-based architecture: Modular and reusable codebase
 
-- Configure the top-level `parserOptions` property like this:
+## Tech Stack
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+Frontend: React, Vite
+Styling: Tailwind CSS
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## Setup Instructions
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+Follow these steps to set up and run the application on your local environment:
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## Prerequisites
+
+Make sure you have Node.js and Git installed.
+
+## Installation
+
+1. git clone git@github.com:rosalesjefferson/ota-coding-challenge.git or use https/GitHub Cli
+2. cd ota-coding-challenge
+3. npm install
+4. npm run dev
+5. The app will typically be available at http://localhost:5173.
